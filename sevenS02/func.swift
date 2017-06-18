@@ -221,7 +221,7 @@ func seven19(){
     
 }
 
-
+// 9*9 table
 func seven99() {
     for k in 0..<2 {
         for j in 1...9 {
@@ -239,6 +239,30 @@ func seven99() {
 }
 
 
+
+// 99 pratice
+
+func pra99() {
+    
+    for k in 0...1 {
+    for i in 1...9 {
+            for j in 2...5 {
+            
+                let newj = j + 4 * k
+                print("\(newj) * \(i) = \(newj * i)", terminator: "\t")
+            
+        }
+    }
+
+    }
+}
+
+
+
+
+
+
+//****1+......+100
 func seven20() {
     var sum = 0
     var i:Int = 1
@@ -251,21 +275,37 @@ func seven20() {
 }
 
 
+//1+...+100 prac
+func pra100() {
+    var sum = 0
+    var i = 10  //沒給初值就不給過了
+    
+    while i <= 100 {
+
+        sum += i  // sum = sum + i
+        i += 1   //i = i + 1
+        }
+        print(sum)
+    
+}
+
+
+//******* 先執行repeat 如果while false 則停止  如do while
 func seven21() {
     var sum = 0
-    var i:Int = 1
+    var i:Int = 5
     
     repeat {
         sum += i
         i += 1
         
-    }while i <= 100
+    }while i <= 4
 
     print(sum)
 }
 
 
-
+//*****質數判斷
 func number() {
     for j in 0...9 {
         var i = 1

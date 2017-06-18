@@ -31,9 +31,12 @@ import Foundation
 
 //seven19()
 
-seven99()
+//seven99()
+
+//pra99()
 
 //seven20()
+//pra100()
 
 //seven21()
 
